@@ -75,8 +75,9 @@ li {
   display: none;
   float: right;
   font-size: 10px;
-  opacity: 0.2;
+  opacity: 0.7;
   font-weight: 900;
+  color: #333;
 }
 .filter-mobile {
   display: none;
@@ -84,7 +85,7 @@ li {
 
 .follow:hover {
   display: block;
-  background-color: rgb(191, 255, 96);
+  
   border-radius: 10px;
   opacity: 1;
 
@@ -140,7 +141,7 @@ li {
 /* cards container */
 
 .feed-main {
-  width: 85%;
+  width: 1200px;
 }
 
 .top-bar {
@@ -290,7 +291,7 @@ li {
   border-right: 2px rgb(150, 150, 150) solid;
 }
 .project-organisation-name {
-  font-weight: 200;
+  font-weight: 400;
   color: #333;
 }
 .project-date {
@@ -300,7 +301,7 @@ li {
 .card-save {
   float: right;
   margin: 50px;
-  color: white;
+  color: #111;
   padding: 5px;
   border-radius: 5px;
   font-size: 10px;
@@ -309,7 +310,7 @@ li {
 }
 
 .card-save:hover {
-  background-color: rgb(107, 141, 255);
+  background-color: rgb(60, 104, 250);
   transition-duration: 0.2s;
 }
 
@@ -549,4 +550,37 @@ li {
     font-size: 12px;
     margin-left: 5px;
   }
+}
+
+/*Changing color pattern*/
+
+
+.followj:hover{
+  background-color: yellow;
+}
+
+.followh:hover{
+  background-color: #ffcba4;
+}
+
+.followc:hover{
+  background-color: seagreen;
+}
+
+.followp:hover{
+  background-color: pink;
+}
+
+.follow-o:hover{
+  background-color: rgb(24, 134, 173);
+  
+}
+
+.bx-shadow-f{
+  box-shadow: 10px 10px #333;
+  z-index: -1;
+}
+
+.feed-cards{
+  width: 1200px;
 }

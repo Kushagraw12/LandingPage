@@ -20,7 +20,7 @@
 }
 
 header {
-  background-color: #f7f7f7;
+  background-color: #111111;
   position: sticky;
   top: 0;
   display: flex;
@@ -42,12 +42,13 @@ header {
 }
 
 header a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  color: #333;
+  color: #f7f7f7;
   height: 40px;
   line-height: 40px;
   text-decoration: none;
+  opacity: 0.9;
 }
 
 .profile-picture {
@@ -92,6 +93,7 @@ header a {
 
 header span {
   color: #3498db;
+  font-size: 25px;
 }
 
 header a:hover {
@@ -128,20 +130,21 @@ header a:hover {
 .welcome-title {
   font-size: 45px;
   font-weight: 600;
-  color: #333;
+  color: #f7f7f7;
   text-align: center;
 }
 
 .landing-text {
   padding-top: 20px;
-  font-size: 25px;
-  font-weight: 200;
+  font-size: 35px;
+  font-weight: 500;
   text-align: center;
+  font-family: Calibri, sans-serif;
 }
 
 .landing-text span {
-  color: #196598;
-
+  color: #f7f7f5;
+  opacity: 0.9;
   font-weight: normal;
 }
 
@@ -162,7 +165,6 @@ header a:hover {
   min-height: 50px;
   justify-content: space-evenly;
 
-  box-shadow: 1px 1px 3px rgb(90, 90, 90);
 }
 
 .sign-in-buttons button:hover {
@@ -223,7 +225,7 @@ header a:hover {
 
 .email-section h3 {
   width: 100%;
-  color: #125581;
+  color: #f7f7f5;
   font-size: 30px;
   font-weight: 350;
 }
@@ -600,3 +602,42 @@ footer h1 {
     font-size: 12px;
   }
 }
+/* Changing Colour Pattern*/
+body{
+  background-color: rgb(15, 38, 48);  
+}
+
+.a-text{
+  color: #3498db;
+}
+
+.bx-shadow{
+  box-shadow: 10px 10px #333;
+}
+
+.bs-shadow{
+  box-shadow: 0px 0px #333;
+  border-bottom: 5px solid #333333;
+}
+
+.as-shadow{
+  box-shadow: 4px 4px #333;
+}
+
+.b-b{
+  border-bottom: 0.5px solid #333;
+}
+
+.i-shadow{
+  box-shadow: 0px 0px 0px 0px #333333;
+  text-align: center;
+}
+
+.dd-text-color:hover{
+  background-color: rgb(15, 38, 48);
+}
+
+.about-us-p{
+  font-size: 20px;
+}
+
